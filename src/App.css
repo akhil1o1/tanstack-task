@@ -1,0 +1,30 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.loader_container {
+  width: 100dvw;
+  height: 100dvh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loader_container > div:first-child {
+  width: 10dvw;
+  height: 10dvh;
+}
+
+.table_heading {
+  text-align: center;
+}
+
+.table thead{
+  text-align: center;
+}
+
+button {
+  cursor: pointer;
+}
